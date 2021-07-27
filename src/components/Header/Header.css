@@ -1,0 +1,17 @@
+.header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.logo {
+  margin-left: 22px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
