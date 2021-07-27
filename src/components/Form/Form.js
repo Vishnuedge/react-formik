@@ -5,7 +5,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import Profiles from '../Profiles/Profiles';
 import * as Yup from 'yup';
 import Error from '../Error/Error';
-export default function Form() {
+export default function ProfileForm() {
   // USE EFFECT :
 
   useEffect(() => {
@@ -19,7 +19,7 @@ export default function Form() {
     username: '',
     name: '',
     email: '',
-    phone: '',
+    phone: null,
     website: ''
   };
 
