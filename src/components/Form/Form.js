@@ -19,7 +19,7 @@ export default function ProfileForm() {
     username: '',
     name: '',
     email: '',
-    phone: null,
+    phone: '',
     website: ''
   };
 
